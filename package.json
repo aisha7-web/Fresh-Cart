@@ -5,9 +5,9 @@
   "type": "module",
   "homepage": "https://aisha7-web.github.io/Fresh-Cart",
   "scripts": {
-   "predeploy": "npm run build",
-  "deploy": "gh-pages -d dist",
-
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist",
+    
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",
@@ -21,7 +21,6 @@
     "formik": "^2.4.6",
     "generate-react-cli": "^8.4.9",
     "react": "^19.0.0",
-
     "react-dom": "^19.0.0",
     "react-hot-toast": "^2.5.2",
     "react-icons": "^5.5.0",
